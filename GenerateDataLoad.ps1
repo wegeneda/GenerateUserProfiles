@@ -1,13 +1,13 @@
 #Parameter section
 [CmdletBinding()]
 Param(
-    [Parameter(HelpMessage='Definieren der Größe des gesamten Datentopfes')]
+    [Parameter(HelpMessage='Define The overall Foldersize')]
         [Int64]$MaxFolderSize=2GB,
-    [Parameter(HelpMessage='Definieren der Anzahl an Dateien. Die tatsächliche Anzahl kann um +/- 10% variieren, da ein Zufallsalgorithmus verwendet wird.')]
+    [Parameter(HelpMessage='Define number of Files.')]
         [int]$FileCount = 3000,
-    [Parameter(HelpMessage='Definieren der Anzahl der Mitarbeiter')]
+    [Parameter(HelpMessage='Define number of profiles')]
         [int]$employee = 10,
-    [Parameter(HelpMessage='Definieren des Wurzelverzeichnisses, in dem die Daten verändert werden sollen')]
+    [Parameter(HelpMessage='Define root directory')]
         [String]$folder="C:\TestDir"
 )
 
