@@ -5,7 +5,7 @@ Param(
         [Int64]$MaxFolderSize=2GB,
     [Parameter(HelpMessage='Definieren der Anzahl an Dateien. Die tatsächliche Anzahl kann um +/- 10% variieren, da ein Zufallsalgorithmus verwendet wird.')]
         [int]$FileCount = 3000,
-    [Parameter(HelpMessage='Definieren der Anzahl der PI-Mitarbeiter')]
+    [Parameter(HelpMessage='Definieren der Anzahl der Mitarbeiter')]
         [int]$employee = 10,
     [Parameter(HelpMessage='Definieren des Wurzelverzeichnisses, in dem die Daten verändert werden sollen')]
         [String]$folder="C:\TestDir"
